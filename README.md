@@ -27,6 +27,12 @@ Then you can do this:
 <a v-touch="tap:onTap">Tap me!</a>
 ```
 
+**If you're using vue.js@^1.0, switch to following code:**
+
+``` html
+<a v-touch:tap="onTap">Tap me!</div>
+``` 
+
 ### Register a custom event
 
 ``` js
